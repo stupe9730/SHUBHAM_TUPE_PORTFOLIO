@@ -7,7 +7,7 @@ require("dotenv").config({ path: "./.env" }
 const app = express()
 app.use(express.static(path.join(__dirname, "dist")))
 app.use(express.json())
-// app.use(cors({ origin: "http://localhost:5173", credentials: true }))
+// app.use(cors({ origin: "http://localhost:5173" }))
 app.use(cors())
 app.use("/api/admin", require("./routes/adminRoute"))
 
