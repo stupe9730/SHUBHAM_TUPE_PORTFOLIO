@@ -1,4 +1,6 @@
-const { addProject, getProject, updateProject, deleteProject } = require("../controller/ProjectController")
+// const { addProject, getProject, updateProject, deleteProject } = require("../controller/pcontroller")
+
+const { addProject, getProject, updateProject, deleteProject } = require("../controller/pcontroller")
 
 
 const router = require("express").Router()
